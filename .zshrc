@@ -23,6 +23,11 @@ ulimit -Sn 4096
 
 alias cdc="cd ~/code"
 
+
+# utilities
+alias open-ports="lsof -Pan -iTCP -sTCP:LISTEN"
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export GH_TOKEN="eb13a984ede88233ef91777b4f4f40a98ad5a012"
 export EDITOR=`which vim`
