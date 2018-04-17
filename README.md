@@ -34,6 +34,8 @@ David Dias's dev env config setup
 ## vim
 
 - `ln ./vimrc ~/.vimrc`
+- `mkdir ~/.vim`
+- `mkdir ~/.vim/colors`
 
 ## tmux
 

@@ -1,30 +1,20 @@
-" Enable pathogen stuff
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
-
 " Enable line numbers
 set number
 
-" Solarized
+" Theme
 syntax enable
+let g:solarized_use16 = 0
 set background=dark
 colorscheme solarized
+" make colors work correctly on the terminal
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
 
 set smartindent
-set tabstop=2
+set tabstop=4
 set shiftwidth=2
 set expandtab
-
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['standard']
 
 set noundofile
 
@@ -37,7 +27,6 @@ inoremap <Up> <NOP>
 inoremap <Down> <NOP>
 inoremap <Left> <NOP>
 inoremap <Right> <NOP>
-
 
 " sensible defaults
 syntax on
@@ -55,10 +44,6 @@ set splitbelow " new hoz splits go below
 set splitright " new vert splits go right
 set backspace=indent,eol,start
 
-" make colors work correctly on the terminal
-if $COLORTERM == 'gnome-terminal'
-  set t_Co=256
-endif
 
 
 " bash like autocomplete for commands
@@ -74,7 +59,6 @@ let g:detectindent_preferred_expandtab = 1
 let g:detectindent_preferred_indent = 2
 
 " invisibles
-" set listchars=tab:▸\ ,eol:¬,nbsp:☠
 set listchars=tab:˙\ ,eol:¬,nbsp:☠
 
 set list
@@ -82,7 +66,6 @@ set list
 " wrapping
 set wrap linebreak
 set showbreak=…
-" set nowrap
 
 " Activate a line at 80 chars
 let &colorcolumn=join(range(81,999),",")
@@ -130,6 +113,9 @@ nnoremap <Leader>[ :tabprevious<CR>
 
 " CtrlP
 nnoremap <C-p> :CtrlP<CR>
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+set exrc
+set secure
 
 " common typing mistakes
 cnoreabbrev Tabe tabe
@@ -138,12 +124,3 @@ inoreabbrev requrie require
 inoreabbrev lenght length
 
 set omnifunc=syntaxcomplete#Complete
-let g:tern_map_keys=1
-
-" rust
-let g:rustfmt_autosave = 1
-
-" ctrlp
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
-set exrc
-set secure
