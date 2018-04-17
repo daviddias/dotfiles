@@ -1,0 +1,9 @@
+{
+  "libs": [
+    "ecmascript"
+  ],
+  "plugins": {
+    "doc_comment": true,
+    "node": true
+  }
+}
