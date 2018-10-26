@@ -69,3 +69,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 - `brew install reattach-to-user-namespace`
 - `ln ./tmux.conf ~/.tmux.conf`
+- `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
