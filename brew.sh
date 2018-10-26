@@ -101,7 +101,7 @@ brew cask install 1password imageoptim gpg-suite
 brew cask install firefox google-chrome brave-browser beaker-browser
 
 # Moaaar
-brew cask install spotify vlc zoomus patchwork keybase dropbox docker
+brew cask install spotify vlc zoomus patchwork keybase dropbox docker ag
 
 # Remove outdated versions from the cellar.
 brew cleanup
