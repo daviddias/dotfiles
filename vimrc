@@ -3,9 +3,9 @@ set number
 
 " Theme
 syntax enable
-let g:solarized_use16 = 0
+let g:solarized_use16 = 1
+colorscheme solarized8
 set background=dark
-colorscheme solarized
 " make colors work correctly on the terminal
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
@@ -43,8 +43,6 @@ set shortmess+=I " disable intro message / splashscreen
 set splitbelow " new hoz splits go below
 set splitright " new vert splits go right
 set backspace=indent,eol,start
-
-
 
 " bash like autocomplete for commands
 set wildmode=longest,list

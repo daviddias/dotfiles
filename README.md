@@ -39,7 +39,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ### iterm2
 
-- Importer super.iterm2colors presets
+- Import super.iterm2colors presets
 - Install Powerline-patched fonts - https://gist.github.com/1595572
 - Set 12pt Menlo Regular for Powerline as fonts
 - Tick off "Native full screen integrations"
@@ -49,7 +49,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 - Install oh-my-zsh
 - `ln ./super.zsh-theme ~/.oh-my-zsh/themes/super.zsh-theme`
 - `rm ~/.zshrc`
-- `ln .zshrc ~/.zshrc`
+- `ln zshrc ~/.zshrc`
 
 ### git
 
@@ -58,9 +58,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ### vim
 
-- `ln ./vimrc ~/.vimrc`
 - `mkdir ~/.vim`
 - `mkdir ~/.vim/colors`
+- `mkdir ~/.vim/.swp`
+- `mkdir ~/.vim/.undo`
+- `cp solarized8.vim ~/.vim/colors`
+- `ln ./vimrc ~/vim/vimrc`
 
 ### tmux
 
