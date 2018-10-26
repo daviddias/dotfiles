@@ -64,6 +64,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 - `mkdir ~/.vim/.undo`
 - `cp solarized8.vim ~/.vim/colors`
 - `ln ./vimrc ~/vim/vimrc`
+- `mkdir -p ~/.vim/pack/git-plugins/start`
+- `git clone https://github.com/w0rp/ale.git ~/.vim/pack/git-plugins/start/ale`
 
 ### tmux
 
