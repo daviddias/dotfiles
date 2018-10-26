@@ -5,9 +5,7 @@ DHash's dev env setup
 
 ### Install a nice terminal (iterm2 v3) and shell (zsh)
 
-Download from https://www.iterm2.com
-
-And then
+Download from https://www.iterm2.com and then:
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -33,7 +31,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 - Omnifocus 3
 - Fantastical 2
 - Screenflow 7
-- ... (check the purchased tab and click all the "Get" buttons
+- ... (check the purchased tab and click all the "Get" buttons)
 
 ## Configuration
 
