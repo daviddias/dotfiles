@@ -66,9 +66,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 - `ln ./vimrc ~/vim/vimrc`
 - `mkdir -p ~/.vim/pack/git-plugins/start`
 - `git clone https://github.com/w0rp/ale.git ~/.vim/pack/git-plugins/start/ale`
+- Now you use vim
 
 ### tmux
 
 - `brew install reattach-to-user-namespace`
 - `ln ./tmux.conf ~/.tmux.conf`
 - `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+- Now you can start tmux
+- Set tmux to autoload on iterm with `bash -l -c "(tmux attach || tmux) && exit"` on your iterm profile
