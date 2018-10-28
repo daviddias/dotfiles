@@ -1,6 +1,18 @@
 DHash's dev env setup
 =====================
 
+```
+ ~/code ⮀
+» asciify "Super Dev Setup" -f slant
+
+   _____                                          ____                        _____         __
+  / ___/  __  __    ____   ___    _____          / __ \  ___  _   __         / ___/  ___   / /_  __  __    ____
+  \__ \  / / / /   / __ \ / _ \  / ___/         / / / / / _ \| | / /         \__ \  / _ \ / __/ / / / /   / __ \
+ ___/ / / /_/ /   / /_/ //  __/ / /            / /_/ / /  __/| |/ /         ___/ / /  __// /_  / /_/ /   / /_/ /
+/____/  \__,_/   / .___/ \___/ /_/            /_____/  \___/ |___/         /____/  \___/ \__/  \__,_/   / .___/
+                /_/                                                                                    /_/
+```
+
 ## Installs
 
 ### Install a nice terminal (iterm2 v3) and shell (zsh)
@@ -64,12 +76,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 - `ln ./vimrc ~/vim/vimrc`
 - `mkdir -p ~/.vim/pack/git-plugins/start`
 - `git clone https://github.com/w0rp/ale.git ~/.vim/pack/git-plugins/start/ale`
-- Now you use vim
+- Now you can now use vim
 
 ### tmux
 
 - `brew install reattach-to-user-namespace`
 - `ln ./tmux.conf ~/.tmux.conf`
 - `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
-- Now you can start tmux
+- You can now start tmux
 - Set tmux to autoload on iterm with `bash -l -c "(tmux attach || tmux) && exit"` on your iterm profile
