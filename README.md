@@ -38,7 +38,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ./node.sh
 ```
 
-### Install all the software part II (via App Store)
+### Install all the software part III (via App Store)
 
 - Omnifocus 3
 - Fantastical 2
@@ -73,7 +73,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 - `mkdir ~/.vim/.swp`
 - `mkdir ~/.vim/.undo`
 - `cp solarized8.vim ~/.vim/colors`
-- `ln ./vimrc ~/vim/vimrc`
+- `ln ./vimrc ~/.vim/vimrc`
 - `mkdir -p ~/.vim/pack/git-plugins/start`
 - `git clone https://github.com/w0rp/ale.git ~/.vim/pack/git-plugins/start/ale`
 - Now you can now use vim
