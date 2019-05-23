@@ -26,7 +26,9 @@ alias cdc="cd ~/code"
 # utilities
 alias open-ports="lsof -Pan -iTCP -sTCP:LISTEN"
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias fresh-install="rm -r node_modules && rm package-lock.json && npm install"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export AEGIR_GHTOKEN="INSERT TOKEN HERE"
+export AEGIR_GHTOKEN="9215774c7225e2ecdc868fdf9c2181a34d8539c1"
+export GITHUB_AUTH_TOKEN="9215774c7225e2ecdc868fdf9c2181a34d8539c1"
 export EDITOR=`which vim`
