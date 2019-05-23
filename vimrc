@@ -124,12 +124,32 @@ inoreabbrev lenght length
 set omnifunc=syntaxcomplete#Complete
 
 " ALE stuffs
-let g:ale_fixers = {
-\   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'javascript': ['standard']
+let g:ale_linters = {
+\   'javascript': ['standard'],
 \}
+
+let g:ale_fixers = {
+\   'javascript': ['standard'],
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\}
+
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
 let g:ale_sign_error = '>>'
 let g:ale_sign_warning = '--'
 " let g:airline#extensions#ale#enabled = 1
+
+" netrw
+" let g:netrw_liststyle = 3
+" let g:netrw_banner = 0
+" let g:netrw_browse_split = 1
+" let g:netrw_winsize = 25
+" let g:netrw_banner = 0
+" let g:netrw_liststyle = 3
+" let g:netrw_browse_split = 4
+" let g:netrw_altv = 1
+" let g:netrw_winsize = 25
+" augroup ProjectDrawer
+"     autocmd!
+"       autocmd VimEnter * :Vexplore
+"     augroup END
