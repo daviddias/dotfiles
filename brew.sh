@@ -77,7 +77,7 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
-#brew install exiv2
+# brew install exiv2
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
@@ -94,14 +94,30 @@ brew install vbindiff
 brew install zopfli
 
 # Install more dev tools
-brew install node git diff-so-fancy ipfs wget watch
-brew cask install 1password imageoptim gpg-suite
+brew install node 
+brew install git 
+brew install diff-so-fancy 
+brew install ipfs 
+brew install wget
+brew install watch
+brew cask install imageoptim 
+brew cask install gpg-suite
+brew cask install ag
+brew cask install docker
 
 # Install the Browsers
-brew cask install firefox google-chrome brave-browser beaker-browser
+brew cask install firefox 
+brew cask install google-chrome
+brew cask install brave-browser
+brew cask install beaker-browser
 
-# Moaaar
-brew cask install spotify vlc zoomus patchwork keybase dropbox docker ag
+# Apps
+brew cask install 1password 
+brew cask install vlc
+brew cask install zoomus
+brew cask install patchwork
+brew cask install keybase
+brew cask install dropbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
