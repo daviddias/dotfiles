@@ -94,25 +94,25 @@ brew install vbindiff
 brew install zopfli
 
 # Install more dev tools
-brew install node 
-brew install git 
-brew install diff-so-fancy 
-brew install ipfs 
+brew install node
+brew install git
+brew install diff-so-fancy
+brew install ipfs
 brew install wget
 brew install watch
-brew cask install imageoptim 
+brew cask install imageoptim
 brew cask install gpg-suite
 brew cask install ag
 brew cask install docker
 
 # Install the Browsers
-brew cask install firefox 
+brew cask install firefox
 brew cask install google-chrome
 brew cask install brave-browser
 brew cask install beaker-browser
 
 # Apps
-brew cask install 1password 
+brew cask install 1password
 brew cask install vlc
 brew cask install zoomus
 brew cask install patchwork

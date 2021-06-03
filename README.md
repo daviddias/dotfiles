@@ -5,12 +5,12 @@ DHash's dev env setup 💻
  ~/code ⮀
 » asciify "Super Setup" -f slant
 
-   _____                                         _____         __                  
-  / ___/  __  __    ____   ___    _____         / ___/  ___   / /_  __  __    ____ 
+   _____                                         _____         __
+  / ___/  __  __    ____   ___    _____         / ___/  ___   / /_  __  __    ____
   \__ \  / / / /   / __ \ / _ \  / ___/         \__ \  / _ \ / __/ / / / /   / __ \
  ___/ / / /_/ /   / /_/ //  __/ / /            ___/ / /  __// /_  / /_/ /   / /_/ /
-/____/  \__,_/   / .___/ \___/ /_/            /____/  \___/ \__/  \__,_/   / .___/ 
-                /_/                                                       /_/      
+/____/  \__,_/   / .___/ \___/ /_/            /____/  \___/ \__/  \__,_/   / .___/
+                /_/                                                       /_/
 ```
 
 ## Installs
@@ -60,6 +60,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 - `ln ./super.zsh-theme ~/.oh-my-zsh/themes/super.zsh-theme`
 - `rm ~/.zshrc`
 - `ln zshrc ~/.zshrc`
+- `touch ~/.tokens`
 
 ### git
 

@@ -11,9 +11,10 @@ export LC_ALL=en_US.UTF-8
 
 # golang shenengingans
 
-export GOROOT=/usr/local/go
+# export GOROOT=/usr/local/go
+# export PATH=$PATH:$GOROOT/bin
 export GOPATH=$HOME/code/go-projects
-export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+export PATH=$PATH:$GOPATH/bin
 
 # other
 
@@ -32,6 +33,5 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export EDITOR=`which vim`
 
-# Tokens
-export AEGIR_GHTOKEN=""
-export GITHUB_AUTH_TOKEN=""
+# tokens
+source ~/.tokens
