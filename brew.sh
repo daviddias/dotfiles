@@ -100,24 +100,24 @@ brew install diff-so-fancy
 brew install ipfs
 brew install wget
 brew install watch
-brew cask install imageoptim
-brew cask install gpg-suite
-brew cask install ag
-brew cask install docker
+brew install imageoptim
+brew install gpg-suite
+brew install ag
+brew install docker
 
 # Install the Browsers
-brew cask install firefox
-brew cask install google-chrome
-brew cask install brave-browser
-brew cask install beaker-browser
+brew install firefox
+brew install google-chrome
+brew install brave-browser
+brew install beaker-browser
 
 # Apps
-brew cask install 1password
-brew cask install vlc
-brew cask install zoomus
-brew cask install patchwork
-brew cask install keybase
-brew cask install dropbox
+brew install 1password
+brew install vlc
+brew install zoom
+brew install patchwork
+brew install keybase
+brew install dropbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
