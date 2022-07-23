@@ -15,35 +15,21 @@ DHash's dev env setup 💻
 
 ## Installs
 
-### Install a nice terminal (iterm2 v3) and shell (zsh)
+1. Install iterm2 from https://www.iterm2.com
 
-Download from https://www.iterm2.com and then:
-
+2. Install Zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-
-### Install all the software part I (via brew)
-
+3. Install Brew
 ```
-# Install brew first
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-./brew.sh
 ```
 
-### Install all the software part II (via Node.js/npm)
-
+4. Install all software
 ```
-./node.sh
+make all
 ```
-
-### Install all the software part III (via App Store)
-
-- Omnifocus 3
-- Fantastical 2
-- Screenflow 7
-- ... (check the purchased tab and click all the "Get" buttons)
 
 ## Configuration
 
@@ -56,7 +42,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ### zsh
 
-- Install oh-my-zsh
 - `ln ./super.zsh-theme ~/.oh-my-zsh/themes/super.zsh-theme`
 - `rm ~/.zshrc`
 - `ln zshrc ~/.zshrc`
