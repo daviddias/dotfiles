@@ -1,11 +1,11 @@
-all: prepare dev productivity ctf cleanup
+all: update dev productivity ctf cleanup
 
-prepare:
+update:
 	brew update
 	brew upgrade
-	
-cleanup:
+
 # Remove outdated versions from the cellar.
+cleanup:
 	brew cleanup
 
 productivity:
@@ -79,7 +79,6 @@ dev:
 	brew install docker
 # Install node packages
 	npm install -g n
-	npm install -g ipfs
 	npm install -g iim
 	npm install -g asciify
 	npm install -g speed-test

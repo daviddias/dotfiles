@@ -2,9 +2,6 @@ DHash's dev env setup 💻
 ========================
 
 ```
- ~/code ⮀
-» asciify "Super Setup" -f slant
-
    _____                                         _____         __
   / ___/  __  __    ____   ___    _____         / ___/  ___   / /_  __  __    ____
   \__ \  / / / /   / __ \ / _ \  / ___/         \__ \  / _ \ / __/ / / / /   / __ \
@@ -13,20 +10,18 @@ DHash's dev env setup 💻
                 /_/                                                       /_/
 ```
 
-## Installs
+## Installation
 
 1. Install iterm2 from https://www.iterm2.com
 
-2. Install Zsh
+2. Install Oh-My-Zsh & Brew
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-3. Install Brew
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
-4. Install all software
+3. Install everything
 ```
 make all
 ```
